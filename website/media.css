@@ -1,0 +1,161 @@
+
+
+@media screen and (min-width: 800px) {
+  nav {
+    background: transparent;
+  }
+  .nav-center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    background: transparent;
+    color: var(--clr-white);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    transition: var(--transition);
+    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0;
+  }
+  .links a:hover {
+    color: var(--clr-white);
+  }
+} 
+
+
+/*  TABLETS RESPONSIVE  */
+@media screen and (max-width: 800px) {
+  nav {
+    background: transparent;
+  }
+  .nav-center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: inline-block;
+
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    background: transparent;
+    color: var(--clr-white);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    display: block;
+    transition: var(--transition);
+    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0;
+  }
+  .links a:hover {
+    color: var(--clr-white);
+  }
+  
+  
+}
+   
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 581px){
+        #footer{
+          width: fit-content;
+        }
+        .sawiro p{
+          margin: 0%;
+          padding: 10%;
+        }
+        .adeeg{
+          width: 100%;
+        }
+        body{
+          width: 165%;
+          align-items: center;
+         
+
+        }
+        #nav{
+          width: auto;
+        }
+         
+        .nav-center{
+          width: 100%;
+          margin: 0px 2px;
+        }
+        form{
+         font-size: 20px;
+         font-family: sans-serif;
+         font-weight: 600;
+         padding-left: 100px;
+        }
+        form h3{
+          font-size: 18px;
+          font-family: 'Courier New', Courier, monospace;
+        }
+        input{
+          font-size: 10px;
+        }
+        p{
+          font-size: 25px;
+        }
+        label{
+          font-size: 15px;
+        }
+
+}
+
+/* small device */
+@media screen and (max-width:330) {
+  body{
+    width: 200%;
+
+  }
+  #footer{
+    width: 200%;
+
+  }
+  .adeeg{
+    width: 200%;
+  }
+  .nav-center{
+     
+    margin: 0p;
+    padding: 0.2rem 0.2rem;
+  }
+  .logo{
+    height: 10px;
+  }
+}
+  
